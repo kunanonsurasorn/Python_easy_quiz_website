@@ -13,14 +13,13 @@
 # ภาพประกอบโปรเจกต์
 
       1. ไฟล์แสดงการพัฒนาเว็บไซต์โดยใช้ HTML
-![BSSW01.jpg](https://github.com/kunanonsurasorn/basic_short_stories_website/blob/main/BSSW01.jpg)
+![PEQW1.jpg](https://github.com/kunanonsurasorn/Python_easy_quiz_website/blob/main/PEQW1.jpg)
 
       2. ไฟล์แสดงการพัฒนาเว็บไซต์โดยใช้ CSS
-![BSSW03.jpg](https://github.com/kunanonsurasorn/basic_short_stories_website/blob/main/BSSW03.jpg)
+![PEQW2.jpg](https://github.com/kunanonsurasorn/Python_easy_quiz_website/blob/main/PEQW2.jpg)
 
       3. ไฟล์แสดงการพัฒนาเว็บไซต์โดยใช้ JavaScript
-
+![PEQW3.jpg](https://github.com/kunanonsurasorn/Python_easy_quiz_website/blob/main/PEQW3.jpg)
       4. หน้าตาของเว็บไซต์
-![BSSW02.jpg](https://github.com/kunanonsurasorn/basic_short_stories_website/blob/main/BSSW02.jpg)
-![BSSW04.jpg](https://github.com/kunanonsurasorn/basic_short_stories_website/blob/main/BSSW04.jpg)
-![BSSW05.jpg](https://github.com/kunanonsurasorn/basic_short_stories_website/blob/main/BSSW05.jpg)
+![PEQW4.jpg](https://github.com/kunanonsurasorn/Python_easy_quiz_website/blob/main/PEQW4.jpg)
+![PEQW5.jpg](https://github.com/kunanonsurasorn/Python_easy_quiz_website/blob/main/PEQW5.jpg)
