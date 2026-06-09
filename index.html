@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Easy Quiz Website</title>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Python Easy Quiz Website</h1>
+    </header>
+    <article>
+        
+        <script src="indexscript.js"></script>
+        
+        <h1>แบบทดสอบภาษาไพทอนแบบง่าย</h1>
+        <p>แบบทดสอบมี 5 ข้อเป็นแบบทดสอบพื้นฐานการใช้ภาษา Python โดยผู้ใช้สามารถทำข้อสอบโดยกดที่ปุ่ม Start จากนั้นตอบคำถามทีละข้อจนครบทุกข้อแล้วกดปุ่ม Finish และ Submit ตามลำดับจะทำให้ทราบผลคะแนน นอกจากนี้ผู้ใช้สามารถทราบผลคะแนนในรูปแบบร้อยละหรือเกรดโดยกดปุ่ม Analyze หรือ Grade หากผู้ใช้ต้องการทำการทดสอบใหม่สามารถกดปุ่ม Reset และ กดปุ่ม Start เพื่อทำข้อสอบอีกรอบได้</p>
+        <hr>
+        <p>กดปุ่ม Start เพื่อเริ่มทำการทดสอบ</p>
+        <div style="text-align: center;">
+            <button class='button' id='start_btn' onclick='start_button()'>Start</button>
+        </div>
+
+        <h2>ข้อที่ 1</h2>
+        <p>เมื่อมีการพิมพ์คำสั่งว่า print(1+1+1+1-1) ผลลัพธ์ที่ได้คืออะไร</p>
+        <div style="text-align: center;">
+            <button class='button' id='btn11' onclick='true_answer1()' disabled>3</button>
+            <button class='button' id='btn12' onclick='false_answer1()'disabled>11</button>
+            <button class='button' id='btn13' onclick='false_answer1()'disabled>111</button>
+            <button class='button' id='btn14' onclick='false_answer1()'disabled>1111</button>
+        </div>
+        <p>คะแนนข้อที่ 1 </p>
+        <p id="point_score1">-</p>
+
+        <hr>
+
+        <h2>ข้อที่ 2</h2>
+        <p>เครื่องหมายใดที่ใช้สำหรับการเขียนความคิดเห็นและไม่ต้องการให้โปรแกรมทำงานในคำสั่งดังกล่าว</p>
+        <div style="text-align: center;">
+            <button class='button' id='btn21' onclick='false_answer2()' disabled>//Comment</button>
+            <button class='button' id='btn22' onclick='false_answer2()' disabled>#Comment#</button>
+            <button class='button' id='btn23' onclick='false_answer2()' disabled>/*Comment*/</button>
+            <button class='button' id='btn24' onclick='true_answer2()'disabled>#Comment</button>
+        </div>
+        <p>คะแนนข้อที่ 2 </p>
+        <p id="point_score2">-</p>
+
+        <hr>
+
+        <h2>ข้อที่ 3</h2>
+        <p>ในการตั้งชื่อตัวแปร คำใดที่ควรนำมาใช้</p>
+        <div style="text-align: center;">
+            <button class='button' id='btn31' onclick='false_answer3()' disabled>def</button>
+            <button class='button' id='btn32' onclick='true_answer3()' disabled>value</button>
+            <button class='button' id='btn33' onclick='false_answer3()' disabled>while</button>
+            <button class='button' id='btn34' onclick='false_answer3()' disabled>for</button>
+        </div>
+        <p>คะแนนข้อที่ 3 </p>
+        <p id="point_score3">-</p>
+
+        <hr>
+
+        <h2>ข้อที่ 4</h2>
+        <p>หากเรียกใช้คำสั่ง for i in range(5):ในบรรทัดแรกและ มีการเว้นบรรทัดข้างหน้าคำสั่ง print(i) ในบรรทัดที่สอง ผลลัพธ์แสดงผลทางจอคืออะไร</p>
+        <div style="text-align: center;">
+            <button class='button' id='btn41' onclick='false_answer4()' disabled>1 2 3 4 5</button>
+            <button class='button' id='btn42' onclick='false_answer4()' disabled>-1 1 3 5 7</button>
+            <button class='button' id='btn43' onclick='true_answer4()' disabled>0 1 2 3 4</button>
+            <button class='button' id='btn44' onclick='false_answer4()' disabled>-2 0 2 4 6</button>
+        </div>
+        <p>คะแนนข้อที่ 4 </p>
+        <p id="point_score4">-</p>
+
+        <hr>
+
+        <h2>ข้อที่ 5</h2>
+        <p>มีข้อมูลหนึ่งเรียงลำดับดังต่อไปนี้คือ "Chicago","New York","Miami","Los Angeles","San Francisco" แต่ผู้ใช้ไม่สามารถแก้ไขข้อมูลภายในได้ หากจะแก้ไขข้อมูลต้องแปลงชนิดข้อมูลเดิมไปเป็นชนิดข้อมูลอื่นก่อนทำการแก้ไขแล้วแปลงกลับมาเป็นชนิดข้อมูลเดิม ชนิดของข้อมูลนี้คืออะไร</p>
+        <div style="text-align: center;">
+            <button class='button' id='btn51' onclick='false_answer5()' disabled>List</button>
+            <button class='button' id='btn52' onclick='true_answer5()' disabled>Tuple</button>
+            <button class='button' id='btn53' onclick='false_answer5()' disabled>Set</button>
+            <button class='button' id='btn54' onclick='false_answer5()' disabled>Dictionary</button>
+        </div>
+        <p>คะแนนข้อที่ 5 </p>
+        <p id="point_score5">-</p>
+
+        <div style="text-align: center;">
+            <button class='button' id="finish_btn" onclick='finish_quiz()' disabled>Finish</button>
+        </div>
+
+        <hr>
+
+        <h2>ผลการสอบ</h2>
+        <button class='button' id="submit_btn" onclick='submit_score()' disabled>Submit</button>
+        <button class='button' id="analyze_btn" onclick='analyze_score()' disabled>Analyze</button>
+        <button class='button' id="grade_btn" onclick='grade_rating()' disabled>Grade</button>
+        <p>คะแนนรวม</p>
+        <p id="total_score">-</p>
+        <p>ร้อยละ</p>
+        <p id="percent_score">-</p>
+        <p>เกรด</p>
+        <p id="grade">-</p>
+
+        <hr>
+        <p>กดปุ่ม Reset เพื่อเริ่มการทดสอบอีกครั้ง</p>
+        <div style="text-align: center;">
+            <button class='button' id='reset_btn' onclick='reset_answer()' disabled>Reset</button>
+        </div>
+        
+    </article>
+    <footer>
+        <p>2026 Python Easy Quiz Website All Rights Reserved</p>
+    </footer>
+</body>
+</html>
